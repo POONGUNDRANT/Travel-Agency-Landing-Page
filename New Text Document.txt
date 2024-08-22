@@ -1,0 +1,329 @@
+.hero {
+  width: 100%;
+  height: 100%;
+  background-color:transparent;
+}
+nav {
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: yellow;
+  box-shadow:none;
+  left: 375px;
+  width: 1170px;
+  height: 114px;
+}
+.nav-header{
+  position: relative;
+  width: 1170px;
+  height: 50px;
+  background: red;
+  display: flex;
+  align-items: center;
+}
+.nav-logo a {
+  position: absolute;
+  font-family: "Volkhov", serif;
+  width: 130px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #05121f;
+  text-decoration: none;
+}
+.tra{
+  position: absolute;
+  width: 101px;
+  height: 24px;
+}
+.vector{
+  position: relative;
+  left: 85px;
+  top: 3px;
+  width: 17px;
+  height: 17px;
+}
+.nav-links{
+  position: relative;
+  list-style: none;
+  width: 386px;
+  height: 24px;
+  left: -441px;
+  background:blue;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.login{
+  position: absolute;
+  left:1000px ;
+  font-size: 16px;
+  width: 44px;
+  height: 24px;
+  color:rgba(253, 141, 58, 1);
+}
+.btn-signup{
+  position: relative;
+  margin: 0%;
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  background: rgba(253, 141, 58, 1);
+  border-radius: 5px;
+  width: 160px;
+  height: 50px;
+}
+.container{
+  position:relative;
+  left: 100px;
+  top: 100px;
+  width: 521;
+  height: 486px
+}
+.inner-container{
+  position:relative;
+  left: 100px;
+  margin: 0;
+  width: 521px;
+  height: 210px;
+  font-size: 40px;
+}
+.inner-container1{
+  position: relative;
+  left: 100px;
+  top: 20px;
+  margin: 0;
+  height: 298px;
+  width: 470px;
+  font-size: 20px;
+  font-style: normal;
+  display: flex;
+}
+.para{
+  font-weight: 350;
+  color: rgba(102, 102, 102, 1);
+}
+.btn{
+  position: relative;
+  left: 100px;
+  top: -150px;
+  width: 170px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color:rgba(253, 141, 58, 1) ;
+}
+.image{
+  position: relative;
+  margin-left:495px;
+  margin-top: -540px;
+  width: 600px;
+  height: 540px; 
+  margin: 0%;
+}
+.man{
+  position: relative;
+  display: block;
+  left:690px;
+  top: -950px;
+  width: 410px;
+  height: 530px;
+}
+.aeroplane{
+  position: relative;
+  display: block;
+  left:600px;
+  top: -720px;
+  width: 550px;
+  height: 315px;
+}
+.awards{
+  position: relative;
+  display: flex;
+  left:660px;
+  top: -1370px;
+  width: 116px;
+  height: 45px;
+  background-color: #FFF;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border: none;
+}
+.star{
+  position: relative;
+  display: flex;
+  left: 670px;
+  top: -1190px;
+  width: 130px;
+  height: 30px;
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 10px 10px;
+  text-align: center;
+  align-items: center;
+  border: none;
+}
+.star2{
+  position: relative;
+  font-size: 11px;
+  font-weight: 559;
+  color: rgba(80, 65, 68,0.81);
+  margin-top: -10px;
+  margin-right: -27px;
+}
+.star3{
+  position: relative;
+  font-size: 10px;
+  color: rgba(68, 68, 68, 1)  ;
+  margin-left: 10px;
+  margin-bottom: -20px;
+}
+.map {
+  position: relative;
+  display: flex;
+  left: 950px;
+  top: -1350px;
+  width: 164px;
+  height: 50px;
+  background-color: #FFF;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  border: none; 
+}
+.explore {
+  position:absolute;
+  font-size: 10px;
+  font-weight: 559;
+  padding: 10px 20px;
+  color: rgba(80, 65, 68,0.81);
+  left: 15px;
+  top: 1px;
+  margin-top: -7px;
+}
+.every {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  align-items: center;
+  color: rgba(68, 68, 68, 0.82);
+  left: 2px;
+  }
+.world {
+  position: absolute;
+  font-size: 10px;
+  color: rgba(80, 65, 68,0.81) ;
+  left: 15px;
+  top: 30px;
+  margin-left: 19px;
+ }
+.search-bar{
+  border-radius: 10px;
+  position: relative;
+  width: 841px;
+  height: 124px;
+  background:#FFF;
+  left: 170px;
+  bottom:597px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-container{
+position: relative;
+width: 793px;
+height: 60px;
+background: transparent;
+}
+.rectangle{
+  position: relative;
+  width: 528px;
+  height: 52px;
+  background: transparent; 
+  top: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.explore-ser{
+  position: absolute;
+  border-radius: 5px;
+  width: 165px;
+  height: 60px;
+  top: 0px;
+  left: 630px;
+  background:rgba(253, 141, 58, 1);
+  color: white;
+  border: none;
+}
+.locate{
+  position:absolute;
+  width: 126px;
+  height: 52px;
+  font-size: 20px;
+  font-size: medium;
+  display: flex;
+  justify-content:space-evenly;
+}
+.word1{
+  position: relative;
+  width: 126px;
+  height: 18px;
+  font-size: 10px;
+  top: 35px;
+  left: 23px;
+}
+.date{
+  position: relative;
+  width: 101px;
+  height: 52px;
+  font-size: 20px;
+  font-size: medium;
+  left: 100px;
+}
+.word2{
+  position: relative;
+  width: 101px;
+  height: 18px;
+  font-size: 10px;
+  top: 35px;
+}
+.guest{
+  position: relative;
+  width: 101px;
+  height: 52px;
+  left: 75px;
+}
+.word3{
+position: relative;
+width: 101px;
+height: 18px;
+font-size: 10px;
+top: 35px;
+left: -25px;
+}
+.hero2{
+  position:relative;
+  top: -999px;
+  width: 1920px;
+  height: 724px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  position: relative;
+  width: 1170px;
+  height: 484px;
+  display: flex;
+  align-items: center;
+}
+.heading{
+position: relative;
+width:  521px;
+height: 142px;
+
+} 
